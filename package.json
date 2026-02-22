@@ -1,0 +1,36 @@
+{
+  "name": "@compliancegrid/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript/JavaScript SDK for the ComplianceGrid API — export compliance, screening, HS codes, and 12+ regulatory domains.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "compliancegrid",
+    "compliance",
+    "export-control",
+    "sanctions",
+    "screening",
+    "hs-codes",
+    "trade-compliance",
+    "sdk"
+  ],
+  "author": "ComplianceGrid <engineering@compliancegrid.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ComplianceGrid/compliancegrid-node.git"
+  },
+  "homepage": "https://www.compliancegrid.ai",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
